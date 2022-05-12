@@ -94,7 +94,7 @@ body {
 .bar2 {
     display: flex;
     padding-top: 5px;
-    gap: 205px;
+    gap: 204px;
     height: 25px;
     width: auto;
     background-image: linear-gradient(to right,rgb(22, 22, 141),rgb(52, 121, 164));
@@ -116,4 +116,99 @@ body {
 
 .text2 {
     text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Projects */
+
+.container3 {
+    display: grid;
+    background: dodgerblue;
+    border: 2px solid lightgray;
+    border-style: outset;
+    position: absolute;
+    left: 45%;
+    top: 53%;
+    height: 550px;
+    width: 500px;
+    margin-top: -300px;
+}
+
+.bar3 {
+    display: flex;
+    padding-top: 5px;
+    gap: 418px;
+    height: 25px;
+    width: auto;
+    background-image: linear-gradient(to right,rgb(22, 22, 141),rgb(52, 121, 164));
+}
+
+.web-progress {
+    display: grid;
+    background-color: lightgrey;
+    width: auto;
+    height: 174px;
+}
+
+.web-projects {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.music-progress {
+    display: grid;
+    background-color: lightgrey;
+    width: auto;
+    height: 174px;
+}
+
+.musicOn {
+    display: flex;
+    justify-content: center;
+}
+
+.degree-progress {
+    display: grid;
+    background-color: lightgrey;
+    width: auto;
+    height: 172px;
+}
+
+.p-text {
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 19px;
+}
+
+.p-text3 {
+    padding-left: 5px;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 500px;
+}
+  
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: #fff;
+    border-radius: 5px;
+    height: 50px;
+}
+  
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 60%; }
 }
